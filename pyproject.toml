@@ -1,0 +1,11 @@
+[project]
+name = "replay-check"
+version = "0.1.0"
+description = "Idempotency and regression checks for event-driven ledger rebuilds"
+requires-python = ">=3.9"
+
+[project.scripts]
+replay-check = "replay_check.cli:main"
+
+[tool.setuptools]
+packages = ["replay_check"]
